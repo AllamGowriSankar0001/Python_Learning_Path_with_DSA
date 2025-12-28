@@ -1,3 +1,4 @@
+# Store name, age, salary, is_student and value and print their types
 name = "John"
 age = 20
 salary = 20000.00
