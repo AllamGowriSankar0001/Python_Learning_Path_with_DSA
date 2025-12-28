@@ -352,47 +352,6 @@ print(name)  # No indentation needed here
 ```
 
 ---
-
-## 📝 Complete Example: Simple Calculator
-
-Here's a practical example combining input and output:
-
-```python
-# Simple Calculator
-print("=== Simple Calculator ===")
-
-# Get inputs
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-# Perform calculations
-sum_result = num1 + num2
-difference = num1 - num2
-product = num1 * num2
-quotient = num1 / num2
-
-# Display results
-print(f"\nResults:")
-print(f"Sum: {sum_result}")
-print(f"Difference: {difference}")
-print(f"Product: {product}")
-print(f"Quotient: {quotient}")
-```
-
-**Sample Output:**
-
-```
-=== Simple Calculator ===
-Enter first number: 10
-Enter second number: 5
-
-Results:
-Sum: 15.0
-Difference: 5.0
-Product: 50.0
-Quotient: 2.0
-```
-
 ---
 
 ## ✅ Quick Check
