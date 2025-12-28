@@ -110,84 +110,7 @@ else:
 
 ---
 
-## 3. if - elif - else Ladder
-
-Used to check **multiple conditions** in sequence.
-
-### Syntax
-
-```python
-if condition1:
-    statement(s)
-elif condition2:
-    statement(s)
-elif condition3:
-    statement(s)
-else:
-    statement(s)
-```
-
-### Example
-
-```python
-marks = 75
-
-if marks >= 90:
-    print("Grade A")
-elif marks >= 75:
-    print("Grade B")
-elif marks >= 50:
-    print("Grade C")
-else:
-    print("Fail")
-```
-
-**Output:** `Grade B`
-
-**How it works:**
-1. Check the first `if` condition
-2. If `True`, execute that block and **stop**
-3. If `False`, check the next `elif` condition
-4. Continue until one condition is `True`
-5. If all conditions are `False`, execute the `else` block
-
-**Important points:**
-- ✅ Only **one block** executes (the first condition that is `True`)
-- ✅ `elif` is short for "else if"
-- ✅ You can have multiple `elif` statements
-- ✅ `else` is optional but recommended
-
-**More examples:**
-
-```python
-# Temperature check
-temperature = 25
-
-if temperature > 30:
-    print("Hot")
-elif temperature > 20:
-    print("Warm")
-elif temperature > 10:
-    print("Cool")
-else:
-    print("Cold")
-
-# Age group classification
-age = 25
-
-if age < 13:
-    print("Child")
-elif age < 20:
-    print("Teenager")
-elif age < 60:
-    print("Adult")
-else:
-    print("Senior")
-```
-
----
-
-## 4. Nested if - else (Very Important)
+## 3. Nested if - else (Very Important)
 
 A **nested if-else** means an `if` or `else` block contains another `if-else` statement. This is used for complex conditions.
 
@@ -265,7 +188,7 @@ else:
 
 ---
 
-## 5. Indentation in if / else (Very Important)
+## 4. Indentation in if / else (Very Important)
 
 Python uses **indentation** to define blocks of code. This is **mandatory**, not optional!
 
@@ -332,7 +255,7 @@ print("World")  # ERROR
 
 ---
 
-## 6. Conditions Used in if
+## 5. Conditions Used in if
 
 Conditions are formed using:
 
@@ -413,7 +336,7 @@ if not is_weekend:
 
 ---
 
-## 7. Short if (Ternary Operator)
+## 6. Short if (Ternary Operator)
 
 Python allows a **one-line if-else** statement. This is called a ternary operator or conditional expression.
 
@@ -467,7 +390,7 @@ print(message)  # Adult
 
 ---
 
-## 8. Common Errors (Exam Tip)
+## 7. Common Errors (Exam Tip)
 
 ### ❌ Error 1: Missing Colon (`:`)
 
